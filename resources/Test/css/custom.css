@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i|Monoton');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons'); 
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body {
+  
+  color: #454749;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family:
+    'Source Sans Pro',
+    sans-serif;
+  min-height: 100vh;
+}
+
+.tile{
+  background-color: #ffffff;
+  border-radius: .1rem;
+  box-shadow: 0 .75rem 1.5rem rgba(0,0,0,0.2), 0 .25rem .25rem rgba(0,0,0,0.2);
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  max-width: 24rem;
+  overflow: hidden;
+  padding: 2rem;
+}
+
+.imagestyle{
+width: 32px;
+	height: 32px;
+	cursor: pointer;
+}
+.redrow{
+background-color: red;
+color:yellow;
+font-style: italic;
+}
+
+body{
+    background-image:url(hero_bg.svg);
+    background-color: #cccccc;
+    background-size: cover;
+}
+
+.display{
+    margin: 20px 10px;
+}
+
+.question {
+    margin-left: 10px; 
+}

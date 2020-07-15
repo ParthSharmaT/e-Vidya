@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link rel="icon" href="images/evidyafavicon.ico">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="js/testitem.js"></script>
+    <script src="js/testitemOperations.js"></script>
+    <script src="js/testcontroller.js"></script>
+
+
+</head>
+
+<body>
+    <div class="tile">
+        <fieldset>
+            <legend>
+                <h1>Test - All the best </h1>
+            </legend>
+            <hr>
+            <div class="display">
+                <div>
+                    Test ends in
+                    <span id="timer">10:00</span> minutes!
+                </div>
+                <br>
+
+                <div class="question">
+                    <span id="quesid"></span>
+                    <span id="ques"></span>
+
+                    <form>
+                        <label for="option1">A:</label>
+                        <input type="radio" name="q" id="option1" value="1" checked>
+                        <span id="input1"></span>
+                        <br>
+
+                        <label for="option2">B:</label>
+                        <input type="radio" name="q" id="option2" value="2">
+                        <span id="input2"></span>
+                        <br>
+
+                        <label for="option3">C:</label>
+                        <input type="radio" name="q" id="option3" value="3">
+                        <span id="input3"></span>
+                        <br>
+
+                        <label for="option4">D:</label>
+                        <input type="radio" name="q" id="option4" value="4">
+                        <span id="input4"></span>
+
+                    </form>
+                    <br>
+                    <table>
+                        <tr>
+                            <td>
+                                <button id="prevQ">Previous</button>
+                            </td>
+                            <td>
+                                <button id="nextQ">Next</button>
+                            </td>
+                            <td>
+                                <button id="submit">Submit</button>
+                            </td>
+                            <td>
+                                <button id="end">End test</button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </fieldset>
+        <h2>
+            <span id="total"></span>
+        </h2>
+    </div>
+</body>
+
+</html>

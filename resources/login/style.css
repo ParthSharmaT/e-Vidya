@@ -1,0 +1,109 @@
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+    body {
+        font-family: 'Roboto', sans-serif;
+        background: url(img/joanna-kosinska-7ACuHoezUYk-unsplash\ \(2\).jpg) no-repeat center center fixed;
+    }
+    
+    .main-section {
+        margin: 0 auto;
+        margin-top: 130px;
+        padding: 0;
+    }
+    
+    .modal-content {
+        background-color: #EEEEEE;
+        opacity: .95;
+        padding: 0 18px;
+        box-shadow: 0px 0px 10px #000000;
+    }
+    
+    .user-img {
+        margin-top: -50px;
+        margin-bottom: 35px;
+    }
+    
+    .user-img img {
+        weight: 150px;
+        height: 150px;
+        border-radius: 25px;
+        box-shadow: 0px 0px 5px #848484;
+        background-color: #c2fbfe;
+    }
+    
+    .form-group {
+        margin-bottom: 25px;
+    }
+    
+    .form-group input {
+        height: 42px;
+        border-radius: 5px;
+        border: 0px;
+        font-size: 18px;
+        padding-left: 54px;
+    }
+    
+    .form-group::before {
+        font-family: 'Font Awesome\ 5 Free';
+        content: "\f007";
+        position: absolute;
+        font-size: 22px;
+        color: #555e60;
+        left: 28px;
+        padding-top: 4px;
+    }
+    
+    .form-group:last-of-type::before {
+        content: "\f023";
+    }
+    
+    button {
+        width: 40%;
+        margin: 5px 0 25px;
+    }
+    
+    .btn {
+        background-color: #27c2a5;
+        color: #fff;
+        font-size: 19px;
+        padding: 7px 24px;
+        border-radius: 5px;
+        border-bottom: 4px solid #219882;
+    }
+    
+    .btn:hover,
+    .btn:focus {
+        background-color: #25a890;
+        border-bottom: 4px solid #25a890!important;
+    }
+    
+    .svg-inline--fa {
+        font-size: 20px;
+        margin-right: 7px;
+    }
+    
+    .forgot {
+        padding: 5px 0 25px;
+    }
+    
+    .forgot a {
+        color: #c2fbfe;
+    }
+    
+    .banner {
+        color: #27c2a5;
+        height: 70px;
+        width: 400px;
+        position: relative;
+        left: 570px;
+        top: 40px;
+        box-shadow: 5px 5px 10px #000000;
+        border-radius: 10px;
+    }
+    
+    .banner h1 {
+        font-size: 50px;
+        font-weight: 700;
+        font-family: fantasy;
+        background-color: #EEEEEE;
+        border-radius: 10px;
+    }
