@@ -107,3 +107,9 @@
         background-color: #EEEEEE;
         border-radius: 10px;
     }
+ @media screen and (min-width: 768px) {
+        body {
+            background: none;
+            background-color: #383e56;
+        }
+    }
